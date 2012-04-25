@@ -20,7 +20,7 @@ Or install it yourself as:
 
 On the command line:
 
-    norwegish say "Take the bus!"
+    $~: norwegish say 'Take the bus!'
     Take the busen!
 
 In your application:
