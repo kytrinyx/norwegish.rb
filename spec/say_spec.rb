@@ -6,5 +6,5 @@ describe Norwegish do
   it { Norwegish.translate("Make a wish!").should eq("Make a visk!") }
   it { Norwegish.translate("The thing is a thing").should eq("The tingen is a ting") }
   it { Norwegish.translate("Thor was a nordic god").should eq("Tør vas a nørdik god") }
-  xit { Norwegish.translate("What a challenge!").should eq("Vat a kjallenge!") }
+  it { Norwegish.translate("What a challenge!").should eq("Vat a kjallenge!") }
 end

@@ -3,8 +3,9 @@
 module Norwegish
   def self.translate(s)
     s
-    .gsub('sh', 'sk')
-    .gsub('Sh', 'Sk')
+    .gsub(/([sS])h/, '\1k')
+    .gsub('Wh', 'V')
+    .gsub('wh', 'v')
     .gsub('Ch', 'Kj')
     .gsub('ch', 'kj')
     .gsub('or', 'ør')
