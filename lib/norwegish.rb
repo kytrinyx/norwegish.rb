@@ -4,6 +4,7 @@ module Norwegish
   def self.translate(s)
     s
     .gsub(/([sS])h/, '\1k')
+    .gsub('ce', 's')
     .gsub('Wh', 'V')
     .gsub('wh', 'v')
     .gsub('Ch', 'Kj')
