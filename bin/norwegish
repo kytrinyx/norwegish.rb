@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'norwegish'
+require 'norwegish/cli'
+
+Norwegish::CLI.start
