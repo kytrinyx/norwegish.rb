@@ -8,4 +8,8 @@ describe Norwegish do
   it { Norwegish.translate("Thor was a nordic god").should eq("Tør vas a nørdik god") }
   it { Norwegish.translate("What a challenge!").should eq("Vat a kjallenge!") }
   it { Norwegish.translate("I presented something at a public konference!").should eq("I presented someting at a publik konferens!") }
+  it { Norwegish.translate("Call it version 1.0").should eq("Kall it versjon 1.0") }
+  it { Norwegish.translate("Like car accidents, most hardware problems are due to driver error.").should eq("Like kar aksidents, most hardvare problems are due to driver errør.") }
+
+
 end
