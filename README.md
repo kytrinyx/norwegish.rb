@@ -23,11 +23,12 @@ On the command line:
     $~: norwegish say 'Take the bus!'
     Take the busen!
 
-In your application:
+In ruby:
 
     require 'norwegish'
 
-    puts Norwegish.translate "Can you believe it?"
+    puts Norwegish.translate "The nice thing about standards is that there are so many to choose from."
+    => The nisen ting about standards is tat there are so many to kjoose from.
 
 ## Contributing
 
