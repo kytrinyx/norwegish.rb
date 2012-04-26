@@ -10,6 +10,7 @@ describe Norwegish do
   it { Norwegish.translate("I presented something at a public konference!").should eq("I presented someting at a publik konferens!") }
   it { Norwegish.translate("Call it version 1.0").should eq("Kall it versjon 1.0") }
   it { Norwegish.translate("Like car accidents, most hardware problems are due to driver error.").should eq("Like kar aksidents, most hardvare problems are due to driver errør.") }
+  it { Norwegish.translate("You're the expert.").should eq("You're the eksperten.") }
 
 
 end

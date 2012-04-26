@@ -8,14 +8,15 @@ module Norwegish
     .gsub('tion', 'sjon')
     .gsub('cci', 'ksi')
     .gsub('ce', 's')
+    .gsub('x', 'ks')
     .gsub('Wh', 'V')
     .gsub('wh', 'v')
     .gsub('Ch', 'Kj')
     .gsub('ch', 'kj')
     .gsub('or', 'ør')
     .gsub(/[cCwW]/, 'c' => 'k', 'C' => 'K', 'w' => 'v', 'W' => 'V')
-    .gsub(/([tT]he\W)(\w*)(\W)/, '\1\2en\3')
     .gsub(/th([^e])/, 't\1')
     .gsub(/Th([^e])/, 'T\1')
+    .gsub(/([tT]he\W)(\w*)(\W)?/, '\1\2en\3')
   end
 end
