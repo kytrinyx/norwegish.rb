@@ -11,6 +11,7 @@ describe Norwegish do
   it { Norwegish.translate("Call it version 1.0").should eq("Kall it versjon 1.0") }
   it { Norwegish.translate("Like car accidents, most hardware problems are due to driver error.").should eq("Like kar aksidents, most hardvare problems are due to driver errør.") }
   it { Norwegish.translate("You're the expert.").should eq("You're the eksperten.") }
-
-
+  it { Norwegish.translate("That's incidental.").should eq("Tat's insidental.") }
+  it { Norwegish.translate("The equipment went missing.").should eq("The ekvipmenten vent missing.") }
+  it { Norwegish.translate("Quit or die.").should eq("Kvit ør die.") }
 end
