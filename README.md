@@ -27,8 +27,8 @@ In ruby:
 
     require 'norwegish'
 
-    puts Norwegish.translate "The nice thing about standards is that there are so many to choose from."
-    => The nisen ting about standards is tat there are so many to kjoose from.
+    puts Norwegish.translate "What a challenge!"
+    => "Vat a kjallenge!"
 
 ## Contributing
 
